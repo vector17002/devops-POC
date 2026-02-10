@@ -4,6 +4,7 @@
     // File Layout
     "rootDir": "./src",
     "outDir": "./dist",
+    "baseUrl": "./src",
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     "module": "nodenext",
@@ -35,5 +36,34 @@
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
+    "paths": {
+      "#config/*": [
+        "./config/*"
+      ],
+      "#utils/*": [
+        "./utils/*"
+      ],
+      "#routes/*": [
+        "./routes/*"
+      ],
+      "#models/*": [
+        "./models/*"
+      ],
+      "#db/*": [
+        "./models/*"
+      ],
+      "#services/*": [
+        "./services/*"
+      ],
+      "#middlewares/*": [
+        "./middlewares/*"
+      ],
+      "#controllers/*": [
+        "./controllers/*"
+      ],
+      "#validations/*": [
+        "./validations/*"
+      ]
+    }
   }
 }
