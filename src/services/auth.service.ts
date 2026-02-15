@@ -14,12 +14,11 @@ export const comparePassword = async (password: string, hash: string) => {
 
 export const createUser = async ({ name, email, password, role }: { name: string, email: string, password: string, role: 'user' | 'admin' }) => {
     try {
-        const existingUser = await db.db.select().from(users).where(eq(users.email, email));
-        if (existingUser.length > 0) {
-            logger.error('User already exists', { email });
-            throw new Error('User already exists');
-        }
-
+        // const existingUser = await db.db.select().from(users).where(eq(users.email, email));
+        // if (existingUser.length > 0) {
+        //     logger.error('User already exists', { email });
+        //     throw new Error('User already exists');
+        // }
         const hashedPassword = await hashPassword(password);
         const user = await db.db.insert(users).values({
             name,
@@ -34,7 +33,7 @@ export const createUser = async ({ name, email, password, role }: { name: string
             createdAt: users.createdAt,
             updatedAt: users.updatedAt,
         });
-        logger.info(' New user created successfully', { email: email })
+        logger.info('New user created successfully', { email: email })
         return user;
     } catch (error) {
         logger.error(error);

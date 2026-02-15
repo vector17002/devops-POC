@@ -26,3 +26,23 @@
 {"level":"error","service":"devops-POC-api"}
 {"level":"error","message":"Error signing up user: Error: User already exists","service":"devops-POC-api"}
 {"level":"info","message":"::1 - - [10/Feb/2026:19:04:38 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 53 \"-\" \"axios/0.28.1\"\n","service":"devops-POC-api"}
+{"level":"info","message":"Server started on port 3000","service":"devops-POC-api"}
+{"ip":"::1","level":"warn","message":"Bot detected","service":"devops-POC-api"}
+{"ip":"::1","level":"warn","message":"Bot detected","service":"devops-POC-api"}
+{"ip":"::1","level":"warn","message":"Bot detected","service":"devops-POC-api"}
+{"ip":"::1","level":"warn","message":"Bot detected","service":"devops-POC-api"}
+{"ip":"::1","level":"warn","message":"Bot detected","service":"devops-POC-api"}
+{"ip":"::1","level":"warn","message":"Bot detected","service":"devops-POC-api"}
+{"ip":"::1","level":"warn","message":"Bot detected","service":"devops-POC-api"}
+{"ip":"::1","level":"warn","message":"Bot detected","service":"devops-POC-api"}
+{"level":"info","message":"Server started on port 3000","service":"devops-POC-api"}
+{"ip":"::1","level":"warn","message":"Bot detected","service":"devops-POC-api"}
+{"ip":"::1","level":"warn","message":"Bot detected","service":"devops-POC-api"}
+{"level":"info","message":"Server started on port 3000","service":"devops-POC-api"}
+{"level":"info","message":"Server started on port 3000","service":"devops-POC-api"}
+{"ip":"::1","level":"warn","message":"Bot detected","service":"devops-POC-api"}
+{"level":"info","message":"Server started on port 3000","service":"devops-POC-api"}
+{"ip":"::1","level":"warn","message":"Bot detected","service":"devops-POC-api"}
+{"level":"info","message":"Server started on port 3000","service":"devops-POC-api"}
+{"level":"info","message":"::1 - - [15/Feb/2026:05:37:40 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"axios/0.28.1\"\n","service":"devops-POC-api"}
+{"level":"info","message":"Server started on port 3000","service":"devops-POC-api"}

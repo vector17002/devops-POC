@@ -1,3 +1,7 @@
 .env
 node_modules
 dist
+.neon_local/
+*.d.ts.map
+*.tsbuildinfo
+logs/
