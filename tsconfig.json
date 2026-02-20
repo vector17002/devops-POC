@@ -37,36 +37,16 @@
     "moduleDetection": "force",
     "skipLibCheck": true,
     "paths": {
-      "#config/*": [
-        "./config/*"
-      ],
-      "#utils/*": [
-        "./utils/*"
-      ],
-      "#routes/*": [
-        "./routes/*"
-      ],
-      "#models/*": [
-        "./models/*"
-      ],
-      "#db/*": [
-        "./models/*"
-      ],
-      "#services/*": [
-        "./services/*"
-      ],
-      "#middlewares/*": [
-        "./middlewares/*"
-      ],
-      "#controllers/*": [
-        "./controllers/*"
-      ],
-      "#validations/*": [
-        "./validations/*"
-      ]
+      "#config/*": ["./config/*"],
+      "#utils/*": ["./utils/*"],
+      "#routes/*": ["./routes/*"],
+      "#models/*": ["./models/*"],
+      "#db/*": ["./models/*"],
+      "#services/*": ["./services/*"],
+      "#middlewares/*": ["./middlewares/*"],
+      "#controllers/*": ["./controllers/*"],
+      "#validations/*": ["./validations/*"]
     }
   },
-  "include": [
-    "src/**/*"
-  ]
+  "include": ["src/**/*"]
 }

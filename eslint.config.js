@@ -17,6 +17,8 @@ export default [
         clearTimeout: 'readonly',
         setInterval: 'readonly',
         clearInterval: 'readonly',
+        message: 'readonly',
+        next: 'readonly',
       },
     },
     rules: {
@@ -48,6 +50,12 @@ export default [
     },
   },
   {
-    ignores: ['node_modules/**', 'coverage/**', 'logs/**', 'drizzle/**'],
+    ignores: [
+      'node_modules/**',
+      'coverage/**',
+      'logs/**',
+      'drizzle/**',
+      'dist/**',
+    ],
   },
 ];

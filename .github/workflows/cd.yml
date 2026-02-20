@@ -2,7 +2,7 @@ name: CD
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch:
 
 concurrency:
@@ -35,7 +35,7 @@ jobs:
 
   docker-build:
     name: Docker Image Build
-    needs: [ validate ]
+    needs: [validate]
     runs-on: ubuntu-latest
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     steps:

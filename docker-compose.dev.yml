@@ -5,7 +5,7 @@ services:
       dockerfile: Dockerfile
     container_name: devops-app-dev
     ports:
-      - "${PORT:-3000}:3000"
+      - '${PORT:-3000}:3000'
     env_file:
       - .env.development
     depends_on:
@@ -24,9 +24,9 @@ services:
     env_file:
       - .env.development
     ports:
-      - "5432:5432"
+      - '5432:5432'
     healthcheck:
-      test: ["CMD", "pg_isready", "-h", "localhost", "-U", "neon"]
+      test: ['CMD', 'pg_isready', '-h', 'localhost', '-U', 'neon']
       interval: 10s
       timeout: 5s
       retries: 5

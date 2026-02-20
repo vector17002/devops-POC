@@ -17,6 +17,7 @@ This repository is configured to use **Neon Database** with different setups for
 In development, we use the `neondatabase/neon_local` proxy. This allows you to work with ephemeral branches and simulate the Neon Cloud environment locally.
 
 **Variables needed in `.env.development`:**
+
 - `NEON_API_KEY`: Your Neon API Key.
 - `NEON_PROJECT_ID`: Your Neon Project ID.
 - `DATABASE_URL`: `postgres://neon:npg@neon-local:5432/neondb?sslmode=require`
@@ -26,6 +27,7 @@ In development, we use the `neondatabase/neon_local` proxy. This allows you to w
 In production, the app connects directly to the Neon Cloud database.
 
 **Variables needed in `.env.production`:**
+
 - `DATABASE_URL`: Your actual Neon Cloud connection string.
 
 ---
