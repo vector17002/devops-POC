@@ -2,3 +2,47 @@
 {"level":"info","message":"Server started on port 3000","service":"devops-POC-api"}
 {"level":"info","message":"Hello from this POC backend","service":"devops-POC-api"}
 {"level":"info","message":"::1 - - [09/Feb/2026:18:03:33 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"\n","service":"devops-POC-api"}
+{"level":"info","message":"Server started on port 3000","service":"devops-POC-api"}
+{"level":"info","message":"::1 - - [10/Feb/2026:18:28:22 +0000] \"POST /api/sign-up HTTP/1.1\" 404 151 \"-\" \"axios/0.28.1\"\n","service":"devops-POC-api"}
+{"level":"info","message":"User signed up successfully: [object Object]","service":"devops-POC-api"}
+{"level":"info","message":"::1 - - [10/Feb/2026:18:29:09 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 60 \"-\" \"axios/0.28.1\"\n","service":"devops-POC-api"}
+{"level":"info","message":"Server started on port 3000","service":"devops-POC-api"}
+{"level":"info","message":"Server started on port 3000","service":"devops-POC-api"}
+{"level":"info","message":"User signed up successfully: [object Object]","service":"devops-POC-api"}
+{"level":"info","message":"::1 - - [10/Feb/2026:19:02:04 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 60 \"-\" \"axios/0.28.1\"\n","service":"devops-POC-api"}
+{"level":"info","message":"User signed up successfully: [object Object]","service":"devops-POC-api"}
+{"level":"info","message":"::1 - - [10/Feb/2026:19:02:07 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 60 \"-\" \"axios/0.28.1\"\n","service":"devops-POC-api"}
+{"level":"info","message":"User signed up successfully: [object Object]","service":"devops-POC-api"}
+{"level":"info","message":"::1 - - [10/Feb/2026:19:04:20 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 60 \"-\" \"axios/0.28.1\"\n","service":"devops-POC-api"}
+{"level":"info","message":"User signed up successfully: [object Object]","service":"devops-POC-api"}
+{"level":"info","message":"::1 - - [10/Feb/2026:19:04:21 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 60 \"-\" \"axios/0.28.1\"\n","service":"devops-POC-api"}
+{"level":"info","message":"User signed up successfully: [object Object]","service":"devops-POC-api"}
+{"level":"info","message":"::1 - - [10/Feb/2026:19:04:22 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 60 \"-\" \"axios/0.28.1\"\n","service":"devops-POC-api"}
+{"level":"info","message":"Server started on port 3000","service":"devops-POC-api"}
+{"email":"vector17002@gmail.com","level":"info","message":" New user created successfully","service":"devops-POC-api"}
+{"level":"info","message":"User signed up successfully: [object Object]","service":"devops-POC-api"}
+{"level":"info","message":"::1 - - [10/Feb/2026:19:04:36 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 60 \"-\" \"axios/0.28.1\"\n","service":"devops-POC-api"}
+{"email":"vector17002@gmail.com","level":"error","message":"User already exists","service":"devops-POC-api"}
+{"level":"error","service":"devops-POC-api"}
+{"level":"error","message":"Error signing up user: Error: User already exists","service":"devops-POC-api"}
+{"level":"info","message":"::1 - - [10/Feb/2026:19:04:38 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 53 \"-\" \"axios/0.28.1\"\n","service":"devops-POC-api"}
+{"level":"info","message":"Server started on port 3000","service":"devops-POC-api"}
+{"ip":"::1","level":"warn","message":"Bot detected","service":"devops-POC-api"}
+{"ip":"::1","level":"warn","message":"Bot detected","service":"devops-POC-api"}
+{"ip":"::1","level":"warn","message":"Bot detected","service":"devops-POC-api"}
+{"ip":"::1","level":"warn","message":"Bot detected","service":"devops-POC-api"}
+{"ip":"::1","level":"warn","message":"Bot detected","service":"devops-POC-api"}
+{"ip":"::1","level":"warn","message":"Bot detected","service":"devops-POC-api"}
+{"ip":"::1","level":"warn","message":"Bot detected","service":"devops-POC-api"}
+{"ip":"::1","level":"warn","message":"Bot detected","service":"devops-POC-api"}
+{"level":"info","message":"Server started on port 3000","service":"devops-POC-api"}
+{"ip":"::1","level":"warn","message":"Bot detected","service":"devops-POC-api"}
+{"ip":"::1","level":"warn","message":"Bot detected","service":"devops-POC-api"}
+{"level":"info","message":"Server started on port 3000","service":"devops-POC-api"}
+{"level":"info","message":"Server started on port 3000","service":"devops-POC-api"}
+{"ip":"::1","level":"warn","message":"Bot detected","service":"devops-POC-api"}
+{"level":"info","message":"Server started on port 3000","service":"devops-POC-api"}
+{"ip":"::1","level":"warn","message":"Bot detected","service":"devops-POC-api"}
+{"level":"info","message":"Server started on port 3000","service":"devops-POC-api"}
+{"level":"info","message":"::1 - - [15/Feb/2026:05:37:40 +0000] \"GET /health HTTP/1.1\" 200 190 \"-\" \"axios/0.28.1\"\n","service":"devops-POC-api"}
+{"level":"info","message":"Server started on port 3000","service":"devops-POC-api"}

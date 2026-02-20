@@ -1,0 +1,15 @@
+node_modules
+dist
+.env
+.git
+.gitignore
+.prettierignore
+.prettierrc
+eslint.config.js
+drizzle.config.js
+drizzle
+logs
+npm-debug.log
+docker-compose.yml
+Dockerfile
+.dockerignore

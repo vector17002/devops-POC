@@ -1,0 +1,3 @@
+{"email":"vector17002@gmail.com","level":"error","message":"User already exists","service":"devops-POC-api"}
+{"level":"error","service":"devops-POC-api"}
+{"level":"error","message":"Error signing up user: Error: User already exists","service":"devops-POC-api"}
